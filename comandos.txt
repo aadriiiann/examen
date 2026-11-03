@@ -12,3 +12,8 @@ mkdir bbdd
 touch prog/index.php
 git add .
 git commit -m "Paso 2: creado index.php en prog"
+cd si
+cp ../prog/index.php ../bbdd/consultas.sql
+cd ..
+git add .
+git commit -m "Paso 3: copiado index.php a bbdd como consultas.sql"
